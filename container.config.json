@@ -1,15 +1,11 @@
 {
 	"containerPort": 80,                            
 	"minNum": 0,                                    
-	"maxNum": 50,                                   
-	"cpu": 1,                                    	
-	"mem": 2,                                     	
+	"maxNum": 10,
+	"cpu": 0.25,
+	"mem": 0.5,
 	"policyType": "cpu",                            
 	"policyThreshold": 60,                          
 	"envParams": {},                                
-	"customLogs": "stdout",                         
-	"dataBaseName":"MoeMusic",
-	"executeSQLs":[
-		"CREATE DATABASE IF NOT EXISTS MoeMusic;"
-	]                                               
+	"customLogs": "stdout"
 }
