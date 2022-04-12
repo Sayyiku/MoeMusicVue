@@ -19,7 +19,6 @@
   </q-drawer>
 
   <q-page-container>
-    1111
     <router-view />
   </q-page-container>
 
