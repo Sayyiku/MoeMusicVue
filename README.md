@@ -1,2 +1,2 @@
-# Vue 3 + Vite + VueRouter + Quasar
+# Vue 3 + Vite + VueRouter + Quasar + Eslint
 
