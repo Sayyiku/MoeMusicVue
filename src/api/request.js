@@ -1,12 +1,11 @@
-import axios from "axios";
+import axios from 'axios';
 
-
-const baseUrl = import.meta.env.VITE_API_HOST
+const baseUrl = import.meta.env.VITE_API_HOST;
 
 const instance = axios.create({
-  baseURL: baseUrl,
+  baseURL: baseUrl
 });
 
-const { get,post,put } = instance
+const { get, post, put } = instance;
 
-export { get,post,put }
+export { get, post, put };

@@ -1,0 +1,7 @@
+/node_modules/
+/public/
+.vscode/
+.git/
+.gitignore
+.idea/
+.env

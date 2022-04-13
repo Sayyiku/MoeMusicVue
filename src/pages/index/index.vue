@@ -1,13 +1,9 @@
-<template lang="">
-  <div>
-    这是主页
-  </div>
+<template>
+  <div>这是主页</div>
 </template>
 <script>
 export default {
-  name: 'Index',
-}
+  name: 'Index'
+};
 </script>
-<style lang="">
-  
-</style>
+<style lang=""></style>

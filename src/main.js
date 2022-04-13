@@ -1,20 +1,20 @@
-import { createApp } from 'vue'
-import { Quasar } from 'quasar'
-import router from './router'
-import quasarLang from 'quasar/lang/zh-CN'
+import { createApp } from 'vue';
+import { Quasar } from 'quasar';
+import router from './router';
+import quasarLang from 'quasar/lang/zh-CN';
 // Import icon libraries
-import '@quasar/extras/material-icons/material-icons.css'
+import '@quasar/extras/material-icons/material-icons.css';
 
 // Import Quasar css
-import 'quasar/src/css/index.sass'
-import App from './App.vue'
+import 'quasar/src/css/index.sass';
+import App from './App.vue';
 
-const myApp = createApp(App)
+const myApp = createApp(App);
 
-myApp.use(router)
+myApp.use(router);
 
 myApp.use(Quasar, {
-    plugins: {}, // import Quasar plugins and add here
-    lang: quasarLang,
-})
-myApp.mount('#app')
+  plugins: {}, // import Quasar plugins and add here
+  lang: quasarLang
+});
+myApp.mount('#app');
