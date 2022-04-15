@@ -3,7 +3,7 @@ import layout from './pages/Layout.vue';
 </script>
 
 <template>
-  <layout />
+  <router-view></router-view>
 </template>
 
 <style></style>

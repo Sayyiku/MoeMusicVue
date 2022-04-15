@@ -9,7 +9,6 @@
  * Copyright (c) 2022 by Sayyiku, All Rights Reserved. 
 -->
 
-
 <template>
   <div>404</div>
 </template>
