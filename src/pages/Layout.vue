@@ -8,7 +8,7 @@
           <q-avatar>
             <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg" />
           </q-avatar>
-          萌音乐
+          MoeMusic
         </q-toolbar-title>
       </q-toolbar>
     </q-header>
